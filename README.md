@@ -2,6 +2,7 @@
 
 > A Vue.js project
 
+根据vue-cli 项目修改成ssr，服务器渲染项目
 ## Build Setup
 
 ``` bash
