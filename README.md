@@ -3,29 +3,17 @@
 > A Vue.js project
 
 根据vue-cli 项目修改成ssr，服务器渲染项目
-## Build Setup
 
-``` bash
-# install dependencies
-npm install
+这个是利用prerender-spa-plugin，做的ssr项目
 
-# serve with hot reload at localhost:8080
-npm run dev
+如何在本地查看效果
+--
+```
+git clone https://github.com/xiaqijian/vue-ssr.git
 
-# build for production with minification
+cd vue-ssr && npm install
+
 npm run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
 ```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+然后启动本地服务器，查看打包后的源码，就是ssr渲染出来的首页

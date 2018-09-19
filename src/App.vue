@@ -3,7 +3,6 @@
     <img src="./assets/logo.png">
     <router-link to="/nav1">导航1</router-link>
     <router-link to="/nav2">导航2</router-link>
-
     <router-view/>
   </div>
 </template>
